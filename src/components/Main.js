@@ -14,7 +14,7 @@ const Main = () => {
   return (
     <Book>
       <Book.Header>Cookbook Demo</Book.Header>
-      <Route path="/:handle">
+      <Route path={`${process.env.PUBLIC_URL}/:handle`}>
         <Recipe />
       </Route>
       <Sidebar />

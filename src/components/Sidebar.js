@@ -47,7 +47,10 @@ const Sidebar = () => {
       </RecipeList.FavButton>
       {recipes.length === 0 && <p>There are no recipes here :(</p>}
       {recipes.map(data => (
-        <RecipeList.Item to={data.handle} key={data.handle}>
+        <RecipeList.Item
+          to={`${process.env.PUBLIC_URL}/${data.handle}`}
+          key={data.handle}
+        >
           <RecipeList.Thumb src={data.img} alt={data.handle} />
           <RecipeList.Main>
             <RecipeList.Author>{data.author}</RecipeList.Author>
