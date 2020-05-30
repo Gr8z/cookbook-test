@@ -1,9 +1,9 @@
 import React from 'react'
+import { Route, Switch } from 'react-router-dom'
 
 import Sidebar from './Sidebar'
 import Book from '../styles/Book'
 import Recipe from './Recipe'
-import { Route } from 'react-router-dom'
 
 /* 
   Main Component that houses all other components in this app
@@ -14,9 +14,14 @@ const Main = () => {
   return (
     <Book>
       <Book.Header>Cookbook Demo</Book.Header>
-      <Route path={`${process.env.PUBLIC_URL}/:handle`}>
-        <Recipe />
-      </Route>
+      <Switch>
+        <Route path={`${process.env.PUBLIC_URL}/:handle`}>
+          <Recipe />
+        </Route>
+        <Route path="/">
+          <Book.Msg>Please select a recipe and start cooking.</Book.Msg>
+        </Route>
+      </Switch>
       <Sidebar />
       <Book.Footer>Made with ♥ by Mohammad Dohadwala</Book.Footer>
     </Book>

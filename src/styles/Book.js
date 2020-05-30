@@ -41,4 +41,11 @@ Book.Footer = styled.footer`
   padding: 10px;
 `
 
+Book.Msg = styled.p`
+  grid-area: recipe;
+  justify-self: center;
+  align-self: center;
+  margin: 50px 0;
+`
+
 export default Book

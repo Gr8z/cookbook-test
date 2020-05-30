@@ -50,7 +50,7 @@ const Recipe = () => {
 
   return (
     <RecipeDetail>
-      {index >= 0 && (
+      {index >= 0 ? (
         <>
           <RecipeDetail.Title>
             {recipe.name}{' '}
@@ -79,6 +79,8 @@ const Recipe = () => {
             ))}
           </RecipeDetail.instructions>
         </>
+      ) : (
+        <p>Ops, Recipe not found!</p>
       )}
     </RecipeDetail>
   )
