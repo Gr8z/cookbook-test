@@ -4,9 +4,9 @@ import RecipeList from '../styles/RecipeList'
 import recipeData from '../recipeData'
 
 const Sidebar = () => {
-  // Add up prep and cook time and convert the seconds to mins
+  // Add up prep and cook time
   const getTotalMins = times => {
-    return Math.round((times.prep + times.cook) / 60)
+    return Math.round(times.prep + times.cook)
   }
 
   return (
