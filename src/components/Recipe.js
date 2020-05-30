@@ -21,7 +21,7 @@ const Recipe = () => {
 
   // Set the favorite status
   useEffect(() => {
-    if (index > 0) {
+    if (index >= 0) {
       const isFav = favHandles && favHandles.includes(recipe.handle)
       setFav(isFav)
     }
@@ -50,11 +50,11 @@ const Recipe = () => {
 
   return (
     <RecipeDetail>
-      {index > 0 && (
+      {index >= 0 && (
         <>
           <RecipeDetail.Title>
             {recipe.name}{' '}
-            <RecipeDetail.Fav onClick={() => handleClick()}>
+            <RecipeDetail.Fav title="Favorite" onClick={() => handleClick()}>
               {fav ? '💔' : '💖'}
             </RecipeDetail.Fav>
           </RecipeDetail.Title>
