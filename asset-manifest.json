@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/cookbook-test/static/js/main.9bd5ef1e.chunk.js",
-    "main.js.map": "/cookbook-test/static/js/main.9bd5ef1e.chunk.js.map",
+    "main.js": "/cookbook-test/static/js/main.5ea30e60.chunk.js",
+    "main.js.map": "/cookbook-test/static/js/main.5ea30e60.chunk.js.map",
     "runtime-main.js": "/cookbook-test/static/js/runtime-main.3cb9b9c2.js",
     "runtime-main.js.map": "/cookbook-test/static/js/runtime-main.3cb9b9c2.js.map",
     "static/js/2.ce842130.chunk.js": "/cookbook-test/static/js/2.ce842130.chunk.js",
     "static/js/2.ce842130.chunk.js.map": "/cookbook-test/static/js/2.ce842130.chunk.js.map",
     "index.html": "/cookbook-test/index.html",
-    "precache-manifest.86d523ec114633d096def13410ce5178.js": "/cookbook-test/precache-manifest.86d523ec114633d096def13410ce5178.js",
+    "precache-manifest.7b511ed5b56268b7a44a7bb55aa2200e.js": "/cookbook-test/precache-manifest.7b511ed5b56268b7a44a7bb55aa2200e.js",
     "service-worker.js": "/cookbook-test/service-worker.js",
     "static/js/2.ce842130.chunk.js.LICENSE.txt": "/cookbook-test/static/js/2.ce842130.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3cb9b9c2.js",
     "static/js/2.ce842130.chunk.js",
-    "static/js/main.9bd5ef1e.chunk.js"
+    "static/js/main.5ea30e60.chunk.js"
   ]
 }
