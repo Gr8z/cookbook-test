@@ -1,8 +1,9 @@
-const recipies = [
+const recipes = [
   {
     handle: 'chicken-curry',
     author: 'Jim',
     name: 'Chicken Curry',
+    img: 'http://placehold.jp/150x150.png?text=Chicken%20Curry',
     description: 'Delicious spicy chicken curry',
     times: {
       prep: 60,
@@ -19,6 +20,7 @@ const recipies = [
     handle: 'hamburger',
     author: 'Aravind',
     name: 'Hamburger',
+    img: 'http://placehold.jp/150x150.png?text=Hamburger',
     description: 'Juicy burger with toppings and a soft bun',
     times: {
       prep: 60,
@@ -33,4 +35,4 @@ const recipies = [
   }
 ]
 
-export default recipies
+export default recipes
