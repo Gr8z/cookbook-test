@@ -4,7 +4,7 @@ Simple recipie book app created for the assessment test for Resto Guru. Created 
 
 Also used ESLint and Github Actions to format and auto deploy to demo server on Github Pages.
 
-Demo: [demo.dohad.dev/cookbook-test](https://demo.dohad.dev/cookbook-test)
+Demo: [gr8z.github.io/cookbook-test](https://gr8z.github.io/cookbook-test)
 
 ## Features
 
