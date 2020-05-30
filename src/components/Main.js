@@ -2,9 +2,13 @@ import React from 'react'
 
 import Sidebar from './Sidebar'
 import Book from '../styles/Book'
-import A from '../styles/A'
 import Recipe from './Recipe'
 import { Route } from 'react-router-dom'
+
+/* 
+  Main Component that houses all other components in this app
+  Contains paramter based routing with react-router
+*/
 
 const Main = () => {
   return (
@@ -14,15 +18,7 @@ const Main = () => {
         <Recipe />
       </Route>
       <Sidebar />
-      <Book.Footer>
-        Made with ♥ by{' '}
-        <A
-          href="https://dohad.dev"
-          target="_blank"
-          rel="noopener noreferrer"
-        ></A>
-        Mohammad Dohadwala
-      </Book.Footer>
+      <Book.Footer>Made with ♥ by Mohammad Dohadwala</Book.Footer>
     </Book>
   )
 }

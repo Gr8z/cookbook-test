@@ -4,8 +4,19 @@ import { Link } from 'react-router-dom'
 const RecipeList = styled.div`
   grid-area: sidebar;
   border-right: 1px solid #9a9a9a;
-  max-height: 80vh;
   overflow-y: auto;
+`
+
+RecipeList.FavButton = styled.div`
+  background: #e0e0e0;
+  text-align: center;
+  padding: 16px;
+  color: #d10506;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
 `
 
 RecipeList.Item = styled(Link)`

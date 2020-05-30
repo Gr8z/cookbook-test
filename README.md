@@ -9,6 +9,5 @@ Demo: [demo.dohad.dev/cookbook-test](https://demo.dohad.dev/cookbook-test)
 ## Features
 
 - Mobile friendly
-- Accessible Offline
-- Search Recipies
+- PWA
 - Favourite Recipies (Persistent)

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Body = styled.body`
+const Body = styled.div`
   background: #454545;
   width: 100%;
   height: auto;

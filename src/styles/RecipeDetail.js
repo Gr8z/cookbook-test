@@ -12,6 +12,10 @@ RecipeDetail.Title = styled.h1`
   margin-bottom: 10px;
 `
 
+RecipeDetail.Fav = styled.span`
+  cursor: pointer;
+`
+
 RecipeDetail.Meta = styled.div`
   display: grid;
   grid-template-columns: 100px 1fr;
