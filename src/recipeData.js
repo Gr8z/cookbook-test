@@ -1,9 +1,15 @@
+import baconBombs from './images/bacon-bombs.jpg'
+import chickenCurry from './images/chicken-curry.jpg'
+import hamburger from './images/hamburger.jpg'
+import lasagna from './images/lasagna.jpg'
+import pancakes from './images/pancakes.jpg'
+
 const recipes = [
   {
     handle: 'chicken-curry',
     author: 'Amanda Fetters',
     name: 'Chicken Curry',
-    img: 'http://placehold.jp/150x150.png?text=Chicken%20Curry',
+    img: chickenCurry,
     description: `This is an adaptation of yellow chicken curry from India. 
       The aromas and flavors are a delight to the senses! It is best served with 
       fresh Naan bread and Jasmine or Basmati rice.`,
@@ -38,7 +44,7 @@ const recipes = [
     handle: 'hamburger',
     author: 'Aravind Akash',
     name: 'Hamburger',
-    img: 'http://placehold.jp/150x150.png?text=Hamburger',
+    img: hamburger,
     description: `These burgers are the best on the grill in the summertime. Jam-packed with all kinds of 
       stuff, and no tasteless bread crumbs!`,
     times: {
@@ -71,7 +77,7 @@ const recipes = [
     handle: 'pancakes',
     author: 'Kris Now',
     name: 'Fluffy Pancakes',
-    img: 'http://placehold.jp/150x150.png?text=Fluffy%20Pancakes',
+    img: pancakes,
     description: `Tall and fluffy. These pancakes are just right. Topped with strawberries and whipped cream, they are impossible to resist.`,
     times: {
       prep: 10,
@@ -99,7 +105,7 @@ const recipes = [
     handle: 'bacon-bombs',
     author: 'Yoly Now',
     name: 'Bacon Bombs',
-    img: 'http://placehold.jp/150x150.png?text=Bacon%20Bombs',
+    img: baconBombs,
     description: `These bombs are great for a grab 'n go breakfast or for a side to eggs, hash browns, pancakes, french toast, or waffles. They can easily be air fried instead of pan fried.`,
     times: {
       prep: 10,
@@ -128,7 +134,7 @@ const recipes = [
     handle: 'lasagna',
     author: 'John Chandler',
     name: 'Lasagna',
-    img: 'http://placehold.jp/150x150.png?text=Lasagna',
+    img: lasagna,
     description: `The world's best Lasagna`,
     times: {
       prep: 30,
