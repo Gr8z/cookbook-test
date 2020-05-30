@@ -7,7 +7,7 @@ import Main from './components/Main'
 
 const App = () => {
   return (
-    <Router basename={'/cookbook-test'}>
+    <Router>
       <Reset />
       <Body>
         <Main />
